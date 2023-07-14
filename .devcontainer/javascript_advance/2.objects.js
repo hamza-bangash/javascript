@@ -47,8 +47,58 @@ const obj2 = {
 
 const obj3 = Object.assign(obj1,obj2); // margin object together
 
-console.log(obj3);
+//console.log(obj3);
 
 
+const onlineuser = {};
+onlineuser.id = "123abc";
+onlineuser.name = "hamza";
+
+//console.log(onlineuser);
+
+const obj4 = {...obj1,...obj2};  // by spread operator
+//console.log(obj4);
+
+//array of objects
+
+const array = [
+    {
+        name: "hamza",
+        rollno: 5,
+    },
+    {
+        no:1
+    },
+    {
+        no:4,
+    }
+]
+
+//console.log(array[0].name);
+
+//keys values entries method
 
 
+//console.log(Object.keys(obj1));  //it will print keys of object 
+//console.log(Object.values(obj1)); // it will print the values of object
+//console.log(Object.entries(obj1)); // it will print both
+
+//console.log(obj1.hasOwnProperty('1')); // it will give us wether the keys are in the obj or not
+
+//de-structure of objects
+const course = {
+    coursename: "javascript",
+    price: 899,
+    courseinstructor : "hitesh"
+}
+
+const {coursename : cname} = course;
+console.log(cname);
+
+//API intro
+
+ //jason
+ //{
+  //  "name" : "hamza",
+  //  "rollno": 3,
+ //}
