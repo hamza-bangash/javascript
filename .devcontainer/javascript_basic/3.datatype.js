@@ -10,4 +10,3 @@ let bol = true; //boolean
 
  //object
  console.log(typeof(name));  // typeof method is used to find the data of a given variable
-
