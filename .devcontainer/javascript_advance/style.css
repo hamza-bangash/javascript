@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: red;
+    display: flex;
+}
+
+.box{
+    background-color: aqua;
+    color: black;
+    width: 200px;
+    height: 100px;
+    margin: 2rem;
+    text-align: center;
+}
