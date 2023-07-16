@@ -1,0 +1,22 @@
+
+body{
+    text-align: center;
+    
+}
+.check1{
+    background-color: red;
+    font-size: 5em;
+    padding: 100px;
+}
+
+.boder{
+    box-sizing: border-box;
+    border: 2rem solid black;
+    border-radius: 100px;
+    margin: 50px;
+}
+.check2{
+    font-size: 2rem;
+    background-color: yellow;
+
+}
